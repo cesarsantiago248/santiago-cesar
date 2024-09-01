@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Laboratorio 2 - Cesar Santiago (DSV)</title>
+</head>
+<body>
+<h1>¿Qué es Javascript y en qué se asemeja a Java?</h1>
+<h2>Cesar Santiago 8-979-1368 - - - DSV - - - Prof. Erick Agrazal</h2>
+  <p>Javascript es un lenguaje que fue creado para dar vida a las páginas web. Los programas en este lenguaje se llaman scripts. Se pueden escribir directamente en el HTML de una página web y ejecutarse automáticamente a medida que se carga la página.  Los scripts se proporcionan y ejecutan como texto plano. No necesitan preparación especial o compilación para correr.  <br> <br> <br>Javascript es confundido con Java gracias a su nombre similar, a continuación detallaré las principales diferencias entre Java y Javascript: <br><br> La principal diferencia entre ambos es que Java es un lenguaje de programación de propósito general, mientras que JavaScript es un lenguaje específico para la web. Esto significa que Java se puede utilizar para desarrollar una amplia gama de aplicaciones, desde aplicaciones de escritorio hasta aplicaciones empresariales complejas.  <br><br>Por otro lado, JavaScript se utiliza principalmente para diseñar sitios web interactivos y aplicaciones web. Se ejecuta en el lado del cliente (es decir, en el navegador web del usuario) y se utiliza para agregar interactividad a las páginas web, validar formularios y crear efectos visuales.  <br><br>Otra diferencia importante es que Java es un lenguaje de programación compilado, lo que significa que el código se compila antes de su ejecución, mientras que JavaScript es un lenguaje interpretado, lo que significa que el código se ejecuta directamente en el navegador web sin necesidad de compilación previa.</p>
+  <script>
+// Punto # 2
+// Declarar variables con "var"
+var num1 = 10;
+var num2 = 5;
+
+// Realizar operaciones y imprimir resultados
+console.log("Suma: ", num1 + num2);
+console.log("Resta: ", num1 - num2);
+console.log("Multiplicación: ", num1 * num2);
+console.log("División: ", num1 / num2);
+
+
+// Punto # 3
+// Declarar variables con "let"
+let txt1 = "Hola";
+let txt2 = "mundo cruel...";
+
+// Concatenar variables y imprimir resultado
+console.log(txt1 + " " + txt2);
+
+// Punto # 4
+// Declarar variables con "const"
+const numerodec = 5.25;
+const NOMBRE = "Cesar";
+
+// Imprimir tipo de dato de las variables
+console.log(typeof numerodec);
+console.log(typeof NOMBRE);
+
+// Punto # 5
+// Declarar variable tipo Objeto
+let objeto = {
+  numero: 7,
+  cadena: "Buenas",
+  booleano: true,
+  objetoVacio: {}
+};
+
+// Imprimir objeto
+console.log(objeto);
+
+// Punto # 6
+// Función para sumar múltiplos de 3 o 5
+function sumarMultiplos(n) {
+  let suma = 0;
+  for (let i = 1; i < n; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      suma += i;
+    }
+  }
+  return suma;
+}
+
+// Suma utilizando numero 10
+console.log(sumarMultiplos(10));
+
+  </script>
+</body>
+</html>
