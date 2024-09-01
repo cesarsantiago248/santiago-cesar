@@ -1,13 +1,1 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Laboratorio 2 - Cesar Santiago (DSV)</title>
-</head>
-<body>
-  <h1>Hello World!</h1>
-  <script>
-    // Your JavaScript code here
-    console.log("Hello from JavaScript!");
-  </script>
-</body>
-</html>
+
